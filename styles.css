@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: goldenrod;
+    opacity: 0.75;
+    position: fixed;
+    width: 100%;
+    text-align:center;
+    z-index: 1;
+}
+body {
+    background-color: black;
+    height: 2600px;
+}
+.big-box{
+    background-color: blue;
+    height: 650px;
+    width: 550px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+a{
+    margin-top:80px;
+    color:blue;
+    text-align: center;
+    display: block;
+}
+p{
+    margin-top:20px;
+    text-align: center;
+}
+.small-box{
+    text-align:center;
+    color: white;
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
